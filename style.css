@@ -1,0 +1,239 @@
+body{
+    background-color: #02001a;
+}
+.form-control {
+    background-color:  rgb(2, 0, 26);;
+    border: solid 2px #ffbe00;
+}
+.form-control:focus{
+    background-color:  rgb(2, 0, 26);;
+}
+.form-control::placeholder{
+   
+    background: linear-gradient(to right, #fff , #ffbe00 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+ 
+}
+table{
+    width: 100%;
+    min-height: 200px;
+}
+table td,th{
+    color: #ffbe00;
+    border-bottom: solid #ffbe00 2px;
+    padding: 10px;
+border-spacing: 3px;
+
+}
+
+table td{
+    color: #fff;
+}
+
+.errBox{
+ background-color: #272525c2;
+ height: 100vh;
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ z-index: 100;
+}
+.er{
+    width: 50%;
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(2, 3, 44);
+}
+.layout{ 
+   width: 90%;
+   color: #ffbe00;
+    background-color: #02032c;
+    border: #02032c solid 2px;
+    border-left: solid 10px #ffbe00;
+    z-index: 100;
+}
+.layout button{
+    background-color: rgb(2, 3, 44);
+    border: solid 2px #ffbe00;
+    color: #ffbe00;
+}
+.title{
+font-size: 60px;
+}
+.lien{
+    display: inline-block;
+    position: absolute; 
+    top: 19.2%;
+    height: 400px; 
+    background-color: #ffbe00;
+  
+}
+
+.xs{
+    color: #ffbe00;
+}
+
+.lien i{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -100%;
+    color: #ffbe00;
+   font-size:11px;
+    
+    
+}
+
+.boxheder{
+    border-top: #ffbe00 solid 2px;
+    padding-bottom: 300px;
+    padding-top: 300px ;
+    margin-bottom: 5%;
+
+}
+
+.LY{
+    position: absolute;
+    left: -20px;
+    top: -0;
+    font-size: 300px;
+    font-weight: 100;
+
+}
+.LY2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 300px;
+    font-weight: 100;
+
+}
+.bookmark h2 {
+font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #001aff, #ffbe00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.box-lay{
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+}
+
+.Footer {
+width: auto;
+  }
+
+.Footer h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    background-image:linear-gradient(to right, #001aff,#fff ,#ffbe00);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    isolation: isolate;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sm */
+@media (max-width: 640px) {
+    .lien{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      
+    }
+    .LY{
+        position: absolute;
+        left: -20px;
+        top: 20%;
+        font-size: 90px;
+     
+        font-weight: 100;
+    
+    }
+    .LY2{
+        position: absolute;
+        right: 0;
+        bottom: 50%;
+        font-size: 90px;
+        font-weight: 100;
+    
+    }
+   
+        .bookmark h2 {
+            font-family: "Righteous", cursive;
+                font-size: 14px;
+                background-image: linear-gradient(to right, #001aff, #ffbe00);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .title{
+                font-size: 30px;
+                }
+                .lien i{
+                    text-align: center;
+                    position: relative;
+                    bottom: -100%;
+                    color: #ffbe00;
+                   font-size:9px;
+                    
+                    
+                }
+                .lien{
+                    display: inline-block;
+                    position: absolute; 
+                    top: 17%;
+                    height: 400px; 
+                    background-color: #ffbe00;
+                  
+                }
+       
+                
+
+  }
+
+
+/* md */
+@media  (max-width: 768px) 
+{
+  
+}
