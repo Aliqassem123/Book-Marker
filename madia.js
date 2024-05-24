@@ -21,7 +21,7 @@ else {
 
 addBtn.onclick = function () {
    addweb()
-   //clearweb()
+   clearweb()
    display()
 }
 
